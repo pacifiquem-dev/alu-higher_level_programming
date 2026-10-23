@@ -6,4 +6,5 @@ This project contains introductory Python scripts demonstrating conditional stat
 - **1-last_digit.py**: Prints the last digit of a random number and describes whether it is greater than 5, equal to 0, or less than 6 and not 0.
 - **2-print_alphabet.py**: Prints the ASCII alphabet in lowercase without a newline, using one loop and one print function.
 - **3-print_alphabt.py**: Prints the ASCII alphabet in lowercase without `q` and `e`, using one loop and one print function.
+- **4-print_hexa.py**: Prints all numbers from 0 to 98 in decimal and hexadecimal using one loop and one print function.
 
