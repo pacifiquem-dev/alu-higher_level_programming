@@ -13,4 +13,5 @@ This project contains introductory Python scripts demonstrating conditional stat
 - **9-print_last_digit.py**: Defines a function `print_last_digit(number)` that prints and returns the last digit of a number.
 - **10-add.py**: Defines a function `add(a, b)` that returns the sum of two integers.
 - **11-pow.py**: Defines a function `pow(a, b)` that computes and returns \(a^b\).
+- **12-fizzbuzz.py**: Defines a function `fizzbuzz()` that prints numbers from 1 to 100 with FizzBuzz rules, each followed by a space.
 .
