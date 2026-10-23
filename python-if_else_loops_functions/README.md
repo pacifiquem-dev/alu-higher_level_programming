@@ -11,4 +11,5 @@ This project contains introductory Python scripts demonstrating conditional stat
 - **6-print_comb3.py**: Prints all possible different combinations of two digits in ascending order, separated by `, `, ending with a newline.
 - **7-islower.py**: Defines a function `islower(c)` that checks if a character is lowercase using `ord()`- **8-uppercase.py**: Defines a function `uppercase(str)` that prints a string in uppercase followed by a newline, using `ord()` to convert characters.
 - **9-print_last_digit.py**: Defines a function `print_last_digit(number)` that prints and returns the last digit of a number.
+- **10-add.py**: Defines a function `add(a, b)` that returns the sum of two integers.
 .
