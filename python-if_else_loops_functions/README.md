@@ -7,4 +7,5 @@ This project contains introductory Python scripts demonstrating conditional stat
 - **2-print_alphabet.py**: Prints the ASCII alphabet in lowercase without a newline, using one loop and one print function.
 - **3-print_alphabt.py**: Prints the ASCII alphabet in lowercase without `q` and `e`, using one loop and one print function.
 - **4-print_hexa.py**: Prints all numbers from 0 to 98 in decimal and hexadecimal using one loop and one print function.
+- **5-print_comb2.py**: Prints numbers from 0 to 99 with two digits, separated by `, `, ending with a newline.
 
