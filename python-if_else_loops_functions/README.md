@@ -9,4 +9,5 @@ This project contains introductory Python scripts demonstrating conditional stat
 - **4-print_hexa.py**: Prints all numbers from 0 to 98 in decimal and hexadecimal using one loop and one print function.
 - **5-print_comb2.py**: Prints numbers from 0 to 99 with two digits, separated by `, `, ending with a newline.
 - **6-print_comb3.py**: Prints all possible different combinations of two digits in ascending order, separated by `, `, ending with a newline.
-- **7-islower.py**: Defines a function `islower(c)` that checks if a character is lowercase using `ord()`.
+- **7-islower.py**: Defines a function `islower(c)` that checks if a character is lowercase using `ord()`- **8-uppercase.py**: Defines a function `uppercase(str)` that prints a string in uppercase followed by a newline, using `ord()` to convert characters.
+.
