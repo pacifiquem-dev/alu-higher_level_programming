@@ -7,4 +7,5 @@ This project demonstrates importing functions and using modules in Python.
 - **2-args.py**: Prints the number of arguments and lists them with their positions using `sys.argv`.
 - **3-infinite_add.py**: Prints the sum of all command-line arguments, handling any number of integers (including very large ones).
 - **4-hidden_discovery.py**: Imports the compiled module `hidden_4.pyc` and prints all names defined in it, excluding those starting with `__`, in alphabetical order.
+- **5-variable_load.py**: Imports the variable `a` from `variable_load_5.py` and prints its value.
 
