@@ -7,3 +7,4 @@ This project contains introductory Python scripts for ALU Higher Level Programmi
 - **4-print_float.py**: Prints a float stored in the variable `number` with 2 decimal places, using f-strings.
 - **5-print_string.py**: Prints 3 times the string stored in `str`, followed by its first 9 characters, using string repetition and slicing.
 - **6-concat.py**: Prints `"Welcome to Holberton School!"` using the variables `str1` and `str2`.
+- **7-edges.py**: Prints the first 3 letters, last 2 letters, and the middle of the string `word` using slicing.
