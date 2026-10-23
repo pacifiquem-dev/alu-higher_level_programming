@@ -9,3 +9,5 @@ This project contains introductory Python scripts for ALU Higher Level Programmi
 - **6-concat.py**: Prints `"Welcome to Holberton School!"` using the variables `str1` and `str2`.
 - **7-edges.py**: Prints the first 3 letters, last 2 letters, and the middle of the string `word` using slicing.
 - **8-concat_edges.py**: Prints `"object-oriented programming with Python"` by slicing parts of the variable `str` and concatenating them, without using new variables or string literals.
+- **9-easter_egg.py**: Prints *The Zen of Python, by Tim Peters* using the built-in `this` module (Python easter egg).
+
