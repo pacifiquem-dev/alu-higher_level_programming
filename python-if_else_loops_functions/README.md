@@ -12,4 +12,5 @@ This project contains introductory Python scripts demonstrating conditional stat
 - **7-islower.py**: Defines a function `islower(c)` that checks if a character is lowercase using `ord()`- **8-uppercase.py**: Defines a function `uppercase(str)` that prints a string in uppercase followed by a newline, using `ord()` to convert characters.
 - **9-print_last_digit.py**: Defines a function `print_last_digit(number)` that prints and returns the last digit of a number.
 - **10-add.py**: Defines a function `add(a, b)` that returns the sum of two integers.
+- **11-pow.py**: Defines a function `pow(a, b)` that computes and returns \(a^b\).
 .
