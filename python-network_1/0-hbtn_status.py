@@ -1,10 +1,10 @@
 #!/usr/bin/python3
-"""Fetches ALU intranet status page using urllib."""
+"""Fetches a URL and displays the response body information."""
 
 from urllib import request
 
 if __name__ == "__main__":
-    with request.urlopen("https://alu-intranet.hbtn.io/status") as response:
+    with request.urlopen("https://intranet.hbtn.io/status") as response:
         body = response.read()
 
     print("Body response:")
