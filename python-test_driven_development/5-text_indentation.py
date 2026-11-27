@@ -1,19 +1,19 @@
 #!/usr/bin/python3
-"""Module containing text_indentation function."""
+"""This module defines text_indentation, which splits text into paragraphs."""
 
 
 def text_indentation(text):
-    """Print text with two new lines after ., ? and :."""
+    """Prints text with 2 new lines after each '.', '?' and ':'.
+
+    Spaces at the beginning and end of each printed line are removed.
+    Raises TypeError if text is not a string.
+    """
     if not isinstance(text, str):
         raise TypeError("text must be a string")
-
-    start = 0
-
-    for i, char in enumerate(text):
-        if char in ".?:":
-            print(text[start:i + 1].strip())
-            print()
-            start = i + 1
-
-    if start < len(text):
-        print(text[start:].strip(), end="")
+    line = ""
+    for ch in text:
+        line += ch
+        if ch in ".?:":
+            print(line.strip(), end="\n\n")
+            line = ""
+    print(line.strip(), end="")

@@ -1,29 +1,42 @@
->>> text_indentation = __import__("5-text_indentation").text_indentation
+The ``5-text_indentation`` module
+=================================
 
->>> text_indentation("Hello.")
-Hello.
-<BLANKLINE>
+    >>> text_indentation = __import__('5-text_indentation').text_indentation
 
->>> text_indentation("Hello? Yes.")
-Hello?
-<BLANKLINE>
-Yes.
-<BLANKLINE>
+Two new lines after each '.', '?' and ':':
 
->>> text_indentation("Hello: World")
-Hello:
-<BLANKLINE>
-World
+    >>> text_indentation("Hello. How are you? Fine: thanks")
+    Hello.
+    <BLANKLINE>
+    How are you?
+    <BLANKLINE>
+    Fine:
+    <BLANKLINE>
+    thanks
 
->>> text_indentation("A. B? C:")
-A.
-<BLANKLINE>
-B?
-<BLANKLINE>
-C:
-<BLANKLINE>
+Spaces around lines are removed:
 
->>> text_indentation(5)
-Traceback (most recent call last):
-...
-TypeError: text must be a string
+    >>> text_indentation("   Spaces.    Everywhere   ")
+    Spaces.
+    <BLANKLINE>
+    Everywhere
+
+Text without separators is printed as is:
+
+    >>> text_indentation("No separators here")
+    No separators here
+
+An empty string prints nothing:
+
+    >>> text_indentation("")
+
+Non-strings raise a TypeError:
+
+    >>> text_indentation(12)
+    Traceback (most recent call last):
+    ...
+    TypeError: text must be a string
+    >>> text_indentation(None)
+    Traceback (most recent call last):
+    ...
+    TypeError: text must be a string
